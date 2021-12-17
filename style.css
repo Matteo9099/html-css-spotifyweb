@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+/* inizio header */
+
+header .row{
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+header .logo{
+    width: 15%;
+    height: 50px;
+    background-color: red;
+}
+
+header .upgrade{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+/* fine header */
+
+
+/* inizio aside */
+
+aside .navbar{
+    height: 100vh;
+    width: 15%;
+    background-color: #000;
+}
+
+aside .nav.menu{
+    background-color: red;
+}
+
+aside .nav.menu ul li{
+    height: 50px;
+    padding: 7px;
+    border: 1px solid #000;
+    background-color: yellow;
+}
+
+/* fine aside */
