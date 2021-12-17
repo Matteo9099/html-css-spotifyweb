@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
     font-family: sans-serif;
 }
 
@@ -123,7 +126,6 @@ aside .profile{
 
 .anima{
     width: 85%;
-    height: 100vh;
     float: right;
     background-color: #151423;
 }
@@ -148,15 +150,19 @@ aside .profile{
 }
 
 .container{
-    margin: 50px 20px;
+    margin: 50px 0 80px 20px;
     flex-direction: column;
+}
+
+.title-capitoli{
+    font-size: 35px;
+    color: #fff;
 }
 
 .title-list{
     width: 100%;
-    margin-bottom: 50px;
-    font-size: 20px;
-    color: #fff;
+    margin: 40px 0;
+    flex-direction: column;
 }
 
 .recently-played, .create-for-you, .artisti-famous{
@@ -188,7 +194,12 @@ aside .profile{
     color: gray;
     font-size: 17px;
 }
- 
+
+.paragraph{
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+}
 
 .artisti-famous .items{
     width: 17%;
