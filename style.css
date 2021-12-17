@@ -66,7 +66,7 @@ aside .navbar{
     width: 15%;
     height: 100vh;
     float: left;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: #000;
     padding-left: 20px;
@@ -224,7 +224,6 @@ footer .row .brano{
     width: 250px;
     margin-left: 20px;
     align-items: center;
-    border: 1px solid red;
 }
 
 footer .row .brano img{
