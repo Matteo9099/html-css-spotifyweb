@@ -215,6 +215,7 @@ footer .row{
     position: fixed;
     bottom: 0;
     z-index: 2;
+    align-items: center;
     justify-content: space-between;
     background-color: rgb(22, 22, 22);
 }
@@ -223,7 +224,7 @@ footer .row .brano{
     width: 250px;
     margin-left: 20px;
     align-items: center;
-    background-color: red;
+    border: 1px solid red;
 }
 
 footer .row .brano img{
@@ -244,14 +245,16 @@ footer .row .brano p{
     font-size: 13px;
 }
 
-footer .row .brano .preferiti{
+footer .row .brano .preferiti a{
     justify-content: flex-end;
+    color: #fff;
+    padding: 0 5px;
 }
 
 footer .row .play{
     width: 500px;
     height: 80px;
-    background-color: red;
+    flex-direction: column;
 }
 
 footer .row .play .bottom-play{
@@ -266,9 +269,30 @@ footer .row .play .bottom-item{
     color: #fff;
 }
 
+footer .row .play .bar-time{
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .row .timebar{
+    height: 5px;
+    width: 70%;
+    background-color: rgb(70, 67, 67);
+}
+
+footer .row .play .bar-time span{
+    color: #fff;
+}
+
 footer .row .setting{
     width: 200px;
     height: 80px;
-    background-color: red;
+    align-items: center;
+}
+
+footer .row .setting .settings-audio a{
+    padding: 0 10px;
+    color: #fff;
 }
 /* inizio footer */
