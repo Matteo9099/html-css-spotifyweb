@@ -204,8 +204,71 @@ aside .profile{
 .artisti-famous img{
     border-radius: 50%;
 }
-
-
-
-
 /* fine main */
+
+
+/* inizio footer */
+
+footer .row{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+}
+
+footer .row .brano{
+    width: 250px;
+    margin-left: 20px;
+    align-items: center;
+    background-color: red;
+}
+
+footer .row .brano img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+footer .row .brano span{
+    color: #fff;
+    font-weight: bold;
+}
+
+footer .row .brano p{
+    font-weight: 200;
+    color: gray;
+    font-size: 13px;
+}
+
+footer .row .brano .preferiti{
+    justify-content: flex-end;
+}
+
+footer .row .play{
+    width: 500px;
+    height: 80px;
+    background-color: red;
+}
+
+footer .row .play .bottom-play{
+    margin: 0 auto;
+    height: 50%;
+    align-items: center;
+}
+
+footer .row .play .bottom-item{
+    font-size: 30px;
+    padding: 0 25px;
+    color: #fff;
+}
+
+footer .row .setting{
+    width: 200px;
+    height: 80px;
+    background-color: red;
+}
+/* inizio footer */
