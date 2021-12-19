@@ -99,12 +99,15 @@ aside .item a{
 /* inizio blocco profile */
 aside .profile{
     height: 100px;
-    padding-left: 15px;
-    background-color: red;
     position: fixed;
     bottom: 80px;
     flex-direction: column;
 }
+
+.profile .item .install-app a{
+    color: gray;
+}
+
 /* fine blocco profile */
 
 /* -------fine aside----- */
@@ -289,6 +292,13 @@ main .card-items{
        justify-content: center;
         margin: 15px 0px;
     }    
+
+    aside .profile{
+        justify-content: center;
+        position: fixed;
+        bottom: 80px;
+        flex-direction: column;
+    }
 
     .xs{
         display: block;
