@@ -15,7 +15,7 @@ body{
 
 /* ------- inizio header----- */
 header .row{
-    width: 85%;
+    width: calc(100% / 1 - 300px);
     height: 100px;
     float: right;
     justify-content: flex-end;
@@ -23,29 +23,46 @@ header .row{
 }
 
 header .upgrade{
-    height: 80px;
-    width: 200px;
-    background-color: fuchsia;
     align-self: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px 50px;
 }
+
+header .upgrade a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
 /* -------fine header----- */
 
 
 /* -------inizio aside----- */
 .navbar{
-    width: 15%;
+    width: 300px;
     height: 100%;
     flex-direction: column;
     position: fixed;
     top: 0;
-    background-color: blue;
+    background-color: #000;
 }
 
 /* inizio blocco logo */
 aside .logo{
     height: 100px;
     width: 100%;
-    background-color: gold;
+    padding-left: 15px;
+    align-items: center;
+}
+
+aside .logo.small{
+    display: none;
+}
+
+aside .logo img{
+    object-fit: cover;
+    width: 100%;
 }
 /* fine blocco logo */
 
@@ -53,15 +70,28 @@ aside .logo{
 /* inizio blocco home */
 aside .home{
     height: 150px;
-    padding-left: 15px;
     flex-direction: column;
     margin-bottom: 10px;
 }
 
 aside .item{
-    height: 50px;
-    border: 1px solid #000;
-    background-color: red;
+    align-items: center;
+    padding-left: 15px;
+    margin: 15px 0px;
+}
+
+aside .item i{
+    margin-right: 7px;
+}
+
+.xs{
+    display: none;
+}
+
+aside .item a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
 }
 /* fine blocco home */
 
@@ -86,7 +116,7 @@ aside .profile{
 main {
     margin-bottom: 80px;
     height: 100vh;
-    width: 85%;
+    width: calc(100% / 1 - 300px);
     align-items: center;
     flex-direction: column;
     background-color: rgb(4, 4, 44);
@@ -113,10 +143,6 @@ main .generi .generi-items a{
     padding: 0 10px
 }
 
-main .recently-played{
-    background-color: green;
-}
-
 main .recently-played .title{
     width: 200px;
     height: 50px;
@@ -130,8 +156,8 @@ main .recently-played .card{
 }
 
 main .card-items{
-    height: 150px;
-    flex-basis: 20%;
+    height: 200px;
+    flex-basis: 16%;
     margin: 2px 5px;
     border: 2px solid #000;
     background-color: khaki;
@@ -194,6 +220,10 @@ main .card-items{
         box-sizing: border-box;
     }
     
+    aside .logo img{
+        width: 100%;
+    }
+
     main .card .card-items{
         height: 150px;
         flex-basis: 20%;
@@ -216,6 +246,10 @@ main .card-items{
         box-sizing: border-box;
     }
     
+    aside .logo img{
+        width: 100%;
+    }
+
     main .card .card-items{
         height: 150px;
         flex-basis: 45%;
@@ -228,6 +262,7 @@ main .card-items{
 
 /* ------- spotify s -------- */
 
+
 /* ------- spotify xs -------- */
 @media (max-width: 575px){
     *{
@@ -236,13 +271,40 @@ main .card-items{
         box-sizing: border-box;
     }
     
+    aside .logo{
+        display: none;
+    }
+
+    aside .logo.small{
+        display: block;
+        padding: 4px;
+    }
+
+    aside .logo img{
+        width: 100%;
+    }
+
+    aside .item{
+        align-items: center;
+       justify-content: center;
+        margin: 15px 0px;
+    }    
+
+    .xs{
+        display: block;
+    }
+
+    .s-lg{
+        display: none;
+    }
+
     .navbar{
-        width: 8%;
+        width: 50px;
         align-items: center;
     }
 
     header .row, main{
-        width: 92%;
+        width: calc(100% / 1 - 50px);
     }
 
     main .card .card-items{
