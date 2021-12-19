@@ -258,9 +258,15 @@ main .card-items img{
     font-size: 17px;
 }
 
-.content-late .preferiti a{
+.content-late a{
     color: #fff;
     margin: 0 15px;
+}
+
+.row-riproduction{
+    height: 2px;
+    width: 100px;
+    background-color: red;
 }
 
 .content-center{
