@@ -158,10 +158,18 @@ main .generi .generi-items a{
     padding: 0 10px
 }
 
-main .recently-played .title{
-    width: 200px;
-    height: 50px;
-    background-color: #000;
+main .title{
+   margin-bottom: 10px;
+}
+
+.title-list{
+    font-size: 30px;
+}
+
+.p-title{
+    margin: 8px 0;
+    color: gray;
+    font-size: 18px;
 }
 
 main .recently-played .card{
