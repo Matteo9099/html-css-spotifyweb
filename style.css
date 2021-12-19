@@ -89,10 +89,22 @@ aside .item i{
 }
 
 aside .item a{
-    color: #fff;
+    color: rgb(83, 82, 82);
     font-size: 22px;
     text-decoration: none;
 }
+
+.item h3{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.item #add-playlist i{
+    background-color: rgb(150, 150, 150);
+    color: #000;
+    padding: 10px;
+}
+
 /* fine blocco home */
 
 
