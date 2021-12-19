@@ -227,10 +227,9 @@ main .card-items img{
 }
 
 .nav-center{
-    width: 300px;
+    width: 500px;
     height: 80px;
     align-items: center;
-    background-color: maroon;
 }
 
 .content-late{
@@ -263,16 +262,40 @@ main .card-items img{
     margin: 0 15px;
 }
 
-.row-riproduction{
-    height: 2px;
-    width: 100px;
-    background-color: red;
-}
-
 .content-center{
     height: 50px;
     width: 100%;
-    background-color: mediumslateblue;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-center .content-button{
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center .content-button a{
+    color: #fff;
+    margin: 0 20px;
+    font-size: 25px;
+}
+
+.content-botttom{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bar-time{
+    height: 5px;
+    width: 80%;
+    background-color: rgb(87, 87, 87);
+}
+
+.timing{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(190, 184, 184);
 }
 
 /* ---------fine footer------- */
