@@ -94,7 +94,7 @@ aside .item a{
     text-decoration: none;
 }
 
-.item h3{
+.title-list-song{
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -130,7 +130,7 @@ aside .profile{
 
 main {
     margin-bottom: 80px;
-    height: 100vh;
+    height: 100%;
     width: calc(100% / 1 - 300px);
     align-items: center;
     flex-direction: column;
@@ -172,6 +172,10 @@ main .title{
     font-size: 18px;
 }
 
+.list.create-for-you{
+    margin-top: 100px;
+} 
+
 main .recently-played .card{
     width: 100%;
     flex-wrap: wrap;
@@ -182,8 +186,14 @@ main .card-items{
     height: 200px;
     flex-basis: 16%;
     margin: 2px 5px;
-    border: 2px solid #000;
-    background-color: khaki;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .card-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .circle{
@@ -251,8 +261,6 @@ main .card-items{
         height: 150px;
         flex-basis: 20%;
         margin: 2px 5px;
-        border: 2px solid #000;
-        background-color: khaki;
     }
     
 }
@@ -277,8 +285,6 @@ main .card-items{
         height: 150px;
         flex-basis: 45%;
         margin: 2px 5px;
-        border: 2px solid #000;
-        background-color: khaki;
     }
     
 }
@@ -341,8 +347,6 @@ main .card-items{
         height: 150px;
         flex-basis: 45%;
         margin: 2px 5px;
-        border: 2px solid #000;
-        background-color: gold;
     }
     
 }
