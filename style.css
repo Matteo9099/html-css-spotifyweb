@@ -368,7 +368,8 @@ main .card-items img{
 
 
 /* ------ hover ----- */
-aside a:hover{
+
+aside .item:hover a{
     color: #fff;
 }
 
