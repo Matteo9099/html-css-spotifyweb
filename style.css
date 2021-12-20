@@ -27,6 +27,7 @@ body{
     align-self: center;
     border: 2px solid gray;
     border-radius: 20px; 
+    margin-right: 20px;
 }
 
 .upgrade a{
@@ -34,6 +35,7 @@ body{
     color: #fff;
     text-decoration: none;
     padding: 10px 50px;
+    font-size: 20px;
 }
 
 /* -------fine header----- */
@@ -375,7 +377,8 @@ aside .navbar .home .item:hover{
 }
 
 main .upgrade:hover{
-    transform: scale(0.8);
+    box-shadow: inset 5px 5px 5px #fff;
+    transform: scale(1.1);
 }
 
 main .generi-items a:hover{
