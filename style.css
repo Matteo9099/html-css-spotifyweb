@@ -179,7 +179,7 @@ main {
 }
 
 main .generi{
-    margin-top: 80px;
+    margin-top: 110px;
     flex-wrap: wrap;
 }
 
@@ -261,6 +261,7 @@ main .card-items img{
     flex-shrink: 0;
     position: fixed;
     bottom: 0;
+    z-index: 9;
 }
 
 .nav-late{
@@ -533,7 +534,7 @@ img:hover{
 
     .row{
         width: calc(100% - 50px);
-        height: 70px;
+        height: 100px;
         position: fixed;
         justify-content: flex-end;
         background-color: rgb(4, 4, 20);
