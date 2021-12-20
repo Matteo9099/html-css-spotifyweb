@@ -163,7 +163,7 @@ main .generi{
 
 main .generi .generi-items a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(146, 141, 141);
     text-transform: uppercase;
     font-size: 13px;
     flex-wrap: wrap;
@@ -396,6 +396,11 @@ main .card-items img{
         flex-direction: column;
     }
 
+    .xs.i{
+        color: #fff;
+        border-radius: 50%;
+    }
+
     .xs{
         display: block;
         color: rgb(146, 141, 141);
@@ -418,11 +423,13 @@ main .card-items img{
         height: 100%;
         flex-basis: 45%;
         margin: 2px 5px;
+        font-size: 12px;
     }
     
     .content-late .preferiti{
         flex-direction: column;
     }
+
 
 }
 
