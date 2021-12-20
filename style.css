@@ -185,7 +185,7 @@ main .title{
 }
 
 .list.create-for-you{
-    margin-top: 100px;
+    padding: 50px 0;
 } 
 
 main .recently-played .card{
@@ -204,14 +204,17 @@ main .card-items{
 
 main .card-items img{
     width: 100%;
-    height: 100%;
+    height: 250px;
     object-fit: cover;
 }
 
-.circle{
-    border-radius: 50%;
+.artisti-famous{
+    padding-bottom: 50px;
 }
 
+.artisti-famous img{
+    border-radius: 50%;
+}
 /* ---------fine main --------*/
 
 
@@ -355,6 +358,13 @@ main .card-items img{
     
     .content-late .preferiti{
         flex-direction: column;
+    }
+
+    main .card .card-items{
+        height: 100%;
+        flex-basis: 45%;
+        margin: 2px 5px;
+        font-size: 12px;
     }
 
 }
