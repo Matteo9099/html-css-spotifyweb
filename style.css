@@ -200,9 +200,10 @@ main .generi .generi-items{
 }
 
 main .generi-items .border{
-    margin-top: 5px;
+    margin-top: 7px;
     height: 2px;
-    width: 30%;
+    width: 50%;
+    transition: all 2s;
     background-color: green;
 }
 
@@ -384,6 +385,11 @@ main .upgrade:hover{
 
 main .generi-items a:hover{
     color: #fff;
+}
+
+main .generi-items:hover .border{
+    display: block;
+    
 }
 
 .recently-played img:hover{
