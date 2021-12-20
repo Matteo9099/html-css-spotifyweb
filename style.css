@@ -71,6 +71,9 @@ aside .logo img{
 aside .home{
     flex-direction: column;
     margin-bottom: 10px;
+    height: calc(100% - 100px);
+    min-height: 500px;
+    overflow-y: auto;
 }
 
 aside .item{
@@ -110,10 +113,23 @@ aside .item a{
 /* inizio blocco profile */
 aside .profile{
     flex-direction: column;
+    background-color: #000;
 }
 
 .profile .item .install-app a{
     color: gray;
+}
+
+.profile-name{
+    align-items: center;
+}
+
+.profile-name i{
+    font-size: 30px;
+    color: #fff;
+    background: gray;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 /* fine blocco profile */
@@ -179,7 +195,7 @@ main .recently-played .card{
 }
 
 main .card-items{
-    height: 200px;
+    height: 100%;
     flex-basis: 16%;
     margin: 2px 5px;
     flex-direction: column;
@@ -308,9 +324,13 @@ main .card-items img{
     }
     
     main .card .card-items{
-        height: 150px;
+        height: 100%;
         flex-basis: 20%;
         margin: 2px 5px;
+    }
+
+    main .card .card-items img{
+        height: 200px;
     }
     
 }
@@ -328,7 +348,7 @@ main .card-items img{
     }
     
     main .card .card-items{
-        height: 150px;
+        height: 100%;
         flex-basis: 45%;
         margin: 2px 5px;
     }
@@ -357,6 +377,8 @@ main .card-items img{
     aside .logo.small{
         display: block;
         padding: 4px;
+        height: calc(100% - 100px);
+        min-height: 150px;
     }
 
     aside .logo img{
@@ -393,7 +415,7 @@ main .card-items img{
     }
 
     main .card .card-items{
-        height: 150px;
+        height: 100%;
         flex-basis: 45%;
         margin: 2px 5px;
     }
@@ -401,7 +423,6 @@ main .card-items img{
     .content-late .preferiti{
         flex-direction: column;
     }
-
 
 }
 
