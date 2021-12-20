@@ -114,6 +114,8 @@ aside .playlist{
 
 .image{
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .image i{
@@ -185,7 +187,7 @@ main .generi .generi-items a{
     text-decoration: none;
     color: rgb(146, 141, 141);
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 18px;
     flex-wrap: wrap;
     padding: 0 10px
 }
@@ -236,7 +238,7 @@ main .card-items{
 
 main .card-items img{
     width: 100%;
-    height: 250px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -343,8 +345,18 @@ main .card-items img{
     width: 20%;
     height: 100%;
     background-color: rgb(190, 184, 184);
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.timing i{
+    color: green;
+    display: none;
+}
+
+.none{
+    display: none;
+}
 /* ---------fine footer------- */
 
 
@@ -370,10 +382,33 @@ main .generi-items a:hover{
    cursor: pointer;
 }
 
+img:hover{
+    cursor: pointer;
+}
+
 .image:hover i{
     display: block;
     cursor: pointer;
 }
+
+.content-botttom:hover .timing{
+    background-color: green;
+    cursor: pointer;
+}
+
+.content-botttom:hover i{
+    display: block;
+}
+
+.modifica-volume:hover .timing{
+    background-color: green;
+    cursor: pointer;
+}
+
+.content-late .modifica-volume:hover i{
+    display: block;
+}
+
 
 /* ------ hover ----- */
 
@@ -533,9 +568,23 @@ main .generi-items a:hover{
         object-fit: cover;
     }
     
-    .content-late .preferiti{
+    .content-late {
         flex-direction: column;
     }
+
+    .bar-time, .content-late img, .content-center span, .content-center a, .content-late a{
+        display: none;
+    }
+
+    .content-center .play, .content-late .hamburger{
+       display: block;
+       justify-content: flex-end;
+   }
+
+   .content-late .play{
+       display: block;
+       margin-top: 7px;
+   }
 
 }
 
