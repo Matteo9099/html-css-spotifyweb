@@ -335,6 +335,10 @@ main .card-items img{
     justify-content: space-between;
 }
 
+.none{
+    display: none;
+}
+
 .bar-time{
     height: 5px;
     width: 80%;
@@ -471,6 +475,22 @@ img:hover{
         margin: 2px 5px;
         font-size: 12px;
     }
+
+
+    .bar-time, .content-late img, .content-center span, .content-center a{
+        display: none;
+    }
+
+    .content-center .play, .content-late .hamburger{
+        display: block;
+        justify-content: flex-end;
+    }
+ 
+    .content-late .play{
+        display: block;
+        margin-top: 7px;
+    }
+ 
 
 }
 
