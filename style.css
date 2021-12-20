@@ -41,7 +41,7 @@ header .upgrade a{
 /* -------inizio aside----- */
 .navbar{
     width: 300px;
-    height: 100%;
+    height: calc(100% - 100px);
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -62,14 +62,13 @@ aside .logo.small{
 
 aside .logo img{
     object-fit: cover;
-    width: 100%;
+    width: 200px;
 }
 /* fine blocco logo */
 
 
 /* inizio blocco home */
 aside .home{
-    height: 150px;
     flex-direction: column;
     margin-bottom: 10px;
 }
@@ -81,7 +80,7 @@ aside .item{
 }
 
 aside .item i{
-    margin-right: 7px;
+    margin-right: 10px;
 }
 
 .xs{
@@ -110,9 +109,6 @@ aside .item a{
 
 /* inizio blocco profile */
 aside .profile{
-    height: 100px;
-    position: fixed;
-    bottom: 80px;
     flex-direction: column;
 }
 
@@ -134,7 +130,7 @@ main {
     width: calc(100% / 1 - 300px);
     align-items: center;
     flex-direction: column;
-    background-color: rgb(4, 4, 44);
+    background-color: rgb(27 27 42);
     float: right;
 }
 
@@ -206,7 +202,7 @@ main .card-items img{
 /* ---------inizio footer------- */
 .footer-row{
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: rgb(27, 24, 24);
     justify-content: space-between;
     flex-shrink: 0;
@@ -216,7 +212,7 @@ main .card-items img{
 
 .nav-late{
     width: 300px;
-    height: 80px;
+    height: 100px;
     align-items: center;
 }
 
@@ -228,7 +224,7 @@ main .card-items img{
 
 .nav-center{
     width: 500px;
-    height: 80px;
+    height: 100px;
     align-items: center;
 }
 
@@ -311,10 +307,6 @@ main .card-items img{
         box-sizing: border-box;
     }
     
-    aside .logo img{
-        width: 100%;
-    }
-
     main .card .card-items{
         height: 150px;
         flex-basis: 20%;
@@ -335,10 +327,6 @@ main .card-items img{
         box-sizing: border-box;
     }
     
-    aside .logo img{
-        width: 100%;
-    }
-
     main .card .card-items{
         height: 150px;
         flex-basis: 45%;
@@ -383,8 +371,6 @@ main .card-items img{
 
     aside .profile{
         justify-content: center;
-        position: fixed;
-        bottom: 80px;
         flex-direction: column;
     }
 
@@ -415,6 +401,7 @@ main .card-items img{
     .content-late .preferiti{
         flex-direction: column;
     }
+
 
 }
 
