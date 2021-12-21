@@ -271,19 +271,19 @@ main .card-items img{
 }
 
 .nav-late{
-    width: 300px;
+    width: 20%;
     height: 100px;
     align-items: center;
 }
 
 .nav-late img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
 }
 
 .nav-center{
-    width: 500px;
+    width: 50%;
     height: 100px;
     align-items: center;
 }
@@ -296,16 +296,15 @@ main .card-items img{
 
 .content-late .text-footer{
     flex-direction: column;
+    margin-left: 15px;
 }
 
 .text-footer .text-footer-items.titolo{
-    margin-left: 10px;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 .text-footer .text-footer-items.brano{
-    font-size: 15px;
-    margin-left: 10px;
+    font-size: 18px;
     color: gray;
 }
 
@@ -401,9 +400,15 @@ main .card-items img{
     display: none;
 }
 
-.none{
-    display: none;
+.content-center .play, .content-late .hamburger{
+    display: block;
+    justify-content: flex-end;
 }
+ 
+.content-late .preferiti a{
+    display: block;
+}
+
 /* ---------fine footer------- */
 
 
@@ -458,8 +463,6 @@ main .card-items:hover i{
     display: block;
     background-color: green;
 }
-
-
 /* ------ hover ----- */
 
 
@@ -491,6 +494,23 @@ main .card-items:hover i{
     
     .generi-items{
         padding: 15px;
+    }
+
+    .content-late .preferiti .play{
+        margin: 5px;
+    }
+
+    .content-late .preferiti{
+        flex-direction: column;
+        margin-left: 7px;
+    }
+
+    .content-center a, .content-late a, .content-late .bar-time{
+        display: none;
+    }
+
+    .content-late .preferiti a, .content-late .s-lg{
+        display: block;
     }
 
 }
@@ -563,6 +583,9 @@ main .card-items:hover i{
         margin-top: 7px;
     }
  
+    .content-late .preferiti{
+        flex-direction: column;
+    }
 
 }
 
@@ -684,7 +707,19 @@ main .card-items:hover i{
         flex-direction: column;
     }
 
-    .bar-time, .content-late img, .content-center span, .content-center a, .content-late a{
+    .nav-late{
+        width: 20%;
+        height: 100px;
+        align-items: center;
+    }
+
+    .nav-center{
+        width: 50%;
+        height: 100px;
+        align-items: center;
+    }
+
+    .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a{
         display: none;
     }
 
