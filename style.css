@@ -85,7 +85,7 @@ aside .item{
     font-size: 20px;
 }
 
-aside .home img, aside .profile img  {
+aside .home img, aside .profile img{
     align-items: center;
     width: 60px;
     opacity: 0.5;
@@ -161,9 +161,6 @@ aside .profile .install-app {
 aside .profile i{
     margin-right: 10px;
 }
-
-
-
 /* fine blocco profile */
 
 /* -------fine aside----- */
@@ -633,6 +630,11 @@ main .card-items:hover i{
     aside .profile{
        width: 100%;
        align-items: flex-end;
+    }
+
+    aside .profile img{
+        width: 30px;
+        margin: 0 10px;
     }
 
     aside img{
