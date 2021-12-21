@@ -349,6 +349,7 @@ main .card-items img{
 }
 
 .bar-time{
+    position: relative;
     height: 5px;
     width: 80%;
     background-color: rgb(87, 87, 87);
@@ -360,6 +361,44 @@ main .card-items img{
     background-color: rgb(190, 184, 184);
     justify-content: flex-end;
     align-items: center;
+}
+
+.content-botttom .bar-time{
+    position: relative;
+    height: 5px;
+    width: 80%;
+    background-color: rgb(87, 87, 87);
+}
+
+.content-botttom .timing{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(190, 184, 184);
+    justify-content: flex-end;
+    align-items: center;
+    animation: progres 5s linear;
+}
+
+
+
+
+@keyframes progres {
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
 }
 
 .timing i{
