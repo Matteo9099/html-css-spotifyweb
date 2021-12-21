@@ -82,6 +82,7 @@ aside .item{
     align-items: center;
     padding-left: 30px;
     margin: 15px 0px;
+    font-size: 20px;
 }
 
 aside img {
@@ -110,6 +111,7 @@ aside .item a{
 .title-list-song{
     text-transform: uppercase;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 .item #add-playlist i{
@@ -216,14 +218,10 @@ main .title{
    margin-bottom: 10px;
 }
 
-.title-list{
-    font-size: 30px;
-}
-
 .p-title{
     margin: 8px 0;
     color: gray;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .list.create-for-you{
@@ -432,18 +430,13 @@ main .generi-items:hover .border{
     display: block;
 }
 
-main img:hover{
+main .card-items:hover{
    opacity: 0.3;
    cursor: pointer;
 }
 
-img:hover{
-    cursor: pointer;
-}
-
-.image:hover i{
+main .card-items:hover i{
     display: block;
-    cursor: pointer;
 }
 
 .content-botttom:hover .timing{
@@ -486,6 +479,12 @@ img:hover{
         margin: 2px 5px;
     }
 
+    .title-list-song{
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
     main .card .card-items img{
         height: 200px;
     }
@@ -523,6 +522,12 @@ img:hover{
         padding: 0 10px
     }
     
+    .title-list-song{
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
     main .card .card-items{
         height: 100%;
         flex-basis: 45%;
@@ -643,7 +648,7 @@ img:hover{
         color: rgb(146, 141, 141);
     }
 
-    .s-lg, h3{
+    .s-lg, h4{
         display: none;
     }
 
@@ -654,6 +659,12 @@ img:hover{
 
     main{
         width: calc(100% / 1 - 50px);
+    }
+
+    .title-list-song{
+        text-transform: uppercase;
+        margin-top: 10px;
+        font-size: 16px;
     }
 
     main .card .card-items{
