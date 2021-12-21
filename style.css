@@ -333,7 +333,7 @@ main .card-items img{
     font-size: 25px;
 }
 
-.content-botttom{
+.content-bottom{
     margin-top: 10px;
     align-items: center;
     justify-content: space-around;
@@ -358,14 +358,14 @@ main .card-items img{
     align-items: center;
 }
 
-.content-botttom .bar-time{
+.content-bottom .bar-time{
     position: relative;
     height: 5px;
     width: 80%;
     background-color: rgb(87, 87, 87);
 }
 
-.content-botttom .timing{
+.content-bottom .timing{
     position: absolute;
     width: 20%;
     height: 100%;
@@ -459,24 +459,13 @@ main .card-items:hover i{
     transform: scale(1.1);
 }
 
-.content-botttom:hover .timing{
+.bar-time:hover .timing{
     background-color: green;
     cursor: pointer;
 }
 
-.content-botttom:hover i{
+.bar-time:hover i{
     display: block;
-}
-
-.modifica-volume:hover .timing{
-    background-color: green;
-    cursor: pointer;
-}
-
-.content-late .bar-time:hover .timing i{
-    cursor: pointer;
-    display: block;
-    background-color: green;
 }
 /* ------ hover ----- */
 
