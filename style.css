@@ -728,6 +728,15 @@ main .card-items:hover i{
         align-items: center;
     }
 
+    .text-footer .text-footer-items.titolo {
+        font-size: 18px;
+    }
+
+    .text-footer .text-footer-items.brano {
+        font-size: 13px;
+        color: gray;
+    }
+
     .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a{
         display: none;
     }
@@ -741,7 +750,5 @@ main .card-items:hover i{
        display: block;
        margin-top: 7px;
    }
-
 }
-
 /* ------- spotify xs -------- */
