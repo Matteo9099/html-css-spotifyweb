@@ -274,8 +274,8 @@ main .card-items img{
 }
 
 .nav-late img{
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 80px;
     object-fit: cover;
 }
 
@@ -289,6 +289,7 @@ main .card-items img{
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    font-size: 20px;
 }
 
 .content-late .text-footer{
@@ -445,14 +446,16 @@ main .card-items:hover i{
 
 .content-late .preferiti a:first-child:hover{
     color: red;
-    transform: scale(1.1);
 }
 
-.content-late .preferiti a:nth-child(2):hover{
-    transform: scale(1.1);
+.nav-late img:hover{
+    flex-grow: 1;
+    transition: 1.5s;
+    margin-left: 5px;
+    filter: sepia(0.5);
 }
 
-.content-center a:hover{
+.footer-row a:hover{
     transform: scale(1.1);
 }
 
