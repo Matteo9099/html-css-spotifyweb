@@ -470,7 +470,14 @@ img:hover{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
+    } 
+    
+    .upgrade a{
+        font-size: 20px;
+        padding: 10px 2.px;
+        text-align: center;
+    }  
+    
     
     main .card .card-items{
         height: 100%;
@@ -492,7 +499,6 @@ img:hover{
         margin: 2px 5px;
         font-size: 12px;
     }
-
 
     .bar-time, .content-late img, .content-center span, .content-center a{
         display: none;
@@ -561,6 +567,11 @@ img:hover{
         width: 30px;
     }
 
+    .upgrade a{
+        font-size: 18px;
+        padding: 4px 15px;
+        text-align: center;
+    }
 
     .row{
         width: calc(100% - 50px);
