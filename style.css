@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;      
 }
 
@@ -335,7 +335,7 @@ main .card-items img{
 .content-botttom{
     margin-top: 10px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .none{
@@ -432,13 +432,14 @@ main .generi-items:hover .border{
     display: block;
 }
 
-main .card-items:hover{
-   opacity: 0.3;
-   cursor: pointer;
+main .card-items:hover img{
+    opacity: 0.3;
+    cursor: pointer;
 }
 
 main .card-items:hover i{
     display: block;
+    cursor: pointer;
 }
 
 .content-botttom:hover .timing{
