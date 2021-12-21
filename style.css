@@ -526,6 +526,15 @@ img:hover{
         display: none;
     }
 
+    aside .fondamentali{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    aside .fondamentali .xs{
+      margin: 15px 0;
+    }
+
     aside .logo.small{
         display: block;
         padding: 4px;
@@ -544,9 +553,14 @@ img:hover{
     }    
 
     aside .profile{
-        justify-content: center;
-        flex-direction: column;
+       width: 100%;
+       align-items: flex-end;
     }
+
+    aside img{
+        width: 30px;
+    }
+
 
     .row{
         width: calc(100% - 50px);
@@ -569,17 +583,12 @@ img:hover{
     padding: 0 10px;
     }
 
-    .xs.i{
-        color: #fff;
-        border-radius: 50%;
-    }
-
     .xs{
         display: block;
         color: rgb(146, 141, 141);
     }
 
-    .s-lg{
+    .s-lg, h3{
         display: none;
     }
 
