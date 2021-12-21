@@ -434,7 +434,7 @@ main .generi-items:hover .border{
 }
 
 main .card-items:hover img{
-    transition: 1s;
+    transition: 0.5s;
     opacity: 0.3;
     cursor: pointer;
 }
