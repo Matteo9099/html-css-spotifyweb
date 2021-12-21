@@ -195,7 +195,7 @@ main .generi .generi-items a{
     text-decoration: none;
     color: rgb(146, 141, 141);
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     flex-wrap: wrap;
     padding: 0 10px
 }
@@ -380,9 +380,6 @@ main .card-items img{
     animation: progres 5s linear;
 }
 
-
-
-
 @keyframes progres {
     0%{
         width: 0%;
@@ -512,11 +509,19 @@ img:hover{
     } 
     
     .upgrade a{
-        font-size: 20px;
-        padding: 10px 2.px;
+        font-size: 16px;
+        padding: 10px 20px;
         text-align: center;
     }  
     
+    main .generi .generi-items a{
+        text-decoration: none;
+        color: rgb(146, 141, 141);
+        text-transform: uppercase;
+        font-size: 16px;
+        flex-wrap: wrap;
+        padding: 0 10px
+    }
     
     main .card .card-items{
         height: 100%;
