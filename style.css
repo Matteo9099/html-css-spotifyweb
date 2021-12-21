@@ -85,7 +85,7 @@ aside .item{
     font-size: 20px;
 }
 
-aside img {
+aside .home img, aside .profile img  {
     align-items: center;
     width: 60px;
     opacity: 0.5;
