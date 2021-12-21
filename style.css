@@ -16,7 +16,7 @@ body{
 /* ------- inizio header----- */
 .row{
     width: calc(100% - 300px);
-    height: 70px;
+    height: 100px;
     position: fixed;
     justify-content: flex-end;
     z-index: 2;
@@ -26,7 +26,7 @@ body{
 .upgrade{
     align-self: center;
     border: 2px solid gray;
-    border-radius: 20px; 
+    border-radius: 40px; 
     margin-right: 20px;
 }
 
@@ -34,7 +34,7 @@ body{
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-    padding: 10px 50px;
+    padding: 20px 50px;
     font-size: 20px;
 }
 
@@ -80,12 +80,21 @@ aside .home{
 
 aside .item{
     align-items: center;
-    padding-left: 15px;
+    padding-left: 30px;
     margin: 15px 0px;
 }
 
-aside .item i{
+aside img {
+    align-items: center;
+    width: 60px;
+    opacity: 0.5;
     margin-right: 10px;
+}
+
+aside .user{
+    background-color: rgb(109, 109, 114);
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
 
 .xs{
@@ -93,8 +102,8 @@ aside .item i{
 }
 
 aside .item a{
-    color: rgb(83, 82, 82);
-    font-size: 22px;
+    color: rgb(143, 142, 142);
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -104,9 +113,10 @@ aside .item a{
 }
 
 .item #add-playlist i{
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(207, 204, 204);
     color: #000;
     padding: 10px;
+    margin-right: 10px;
 }
 
 aside .playlist{
@@ -140,21 +150,17 @@ aside .profile{
     background-color: #000;
 }
 
-.profile .item .install-app a{
-    color: gray;
+aside .profile .install-app {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    width: 80%;
 }
 
-.profile-name{
-    align-items: center;
+aside .profile i{
+    margin-right: 10px;
 }
 
-.profile-name i{
-    font-size: 30px;
-    color: #fff;
-    background: gray;
-    border-radius: 50%;
-    padding: 10px;
-}
+
 
 /* fine blocco profile */
 
@@ -203,7 +209,6 @@ main .generi-items .border{
     margin-top: 7px;
     height: 2px;
     width: 50%;
-    transition: all 2s;
     background-color: green;
 }
 
@@ -375,7 +380,7 @@ aside .item:hover a{
 }
 
 aside .navbar .home .item:hover{
-    border-left: 4px solid green;
+    border-left: 5px solid green;
 }
 
 main .upgrade:hover{
@@ -389,10 +394,9 @@ main .generi-items a:hover{
 
 main .generi-items:hover .border{
     display: block;
-    
 }
 
-.recently-played img:hover{
+main img:hover{
    opacity: 0.3;
    cursor: pointer;
 }
@@ -420,8 +424,10 @@ img:hover{
     cursor: pointer;
 }
 
-.content-late .modifica-volume:hover i{
+.content-late .bar-time:hover .timing i{
+    cursor: pointer;
     display: block;
+    background-color: green;
 }
 
 
