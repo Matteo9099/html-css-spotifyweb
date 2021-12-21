@@ -306,7 +306,7 @@ main .card-items img{
 }
 
 .content-late .preferiti{
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .content-late a{
@@ -441,6 +441,19 @@ main .card-items:hover img{
 main .card-items:hover i{
     display: block;
     cursor: pointer;
+}
+
+.content-late .preferiti a:first-child:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+.content-late .preferiti a:nth-child(2):hover{
+    transform: scale(1.1);
+}
+
+.content-center a:hover{
+    transform: scale(1.1);
 }
 
 .content-botttom:hover .timing{
