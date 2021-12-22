@@ -20,6 +20,7 @@ body{
     position: fixed;
     justify-content: flex-end;
     z-index: 2;
+    opacity: 0.9;
     background-color: rgb(4, 4, 20);
 }
 
@@ -213,6 +214,7 @@ main .generi-items .border{
 
 main .title{
    margin-bottom: 10px;
+   font-size: 22px;
 }
 
 .p-title{
@@ -383,7 +385,7 @@ main .card-items img{
         width: 0%;
     }
     25%{
-        width: 50%;
+        width: 25%;
     }
     50%{
         width: 50%;
