@@ -217,10 +217,16 @@ main .title{
    font-size: 22px;
 }
 
+.p-supertitle{
+    margin: 8px 0;
+    color: gray;
+    font-size: 22px;
+}
+
 .p-title{
     margin: 8px 0;
     color: gray;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .list.create-for-you{
@@ -491,10 +497,26 @@ main .card-items:hover i{
         margin: 2px 5px;
     }
 
+    main .title{
+        margin-bottom: 10px;
+        font-size: 18px;
+     }
+
     .title-list-song{
         text-transform: uppercase;
         margin-top: 10px;
-        font-size: 17px;
+        font-size: 15px;
+    }
+
+    .p-supertitle{
+        margin: 8px 0;
+        color: gray;
+        font-size: 16px;
+    }
+    
+
+    .card-items .p-title{
+        font-size: 12px;
     }
 
     main .card .card-items img{
@@ -554,7 +576,18 @@ main .card-items:hover i{
     .title-list-song{
         text-transform: uppercase;
         margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .p-supertitle{
+        margin: 8px 0;
+        color: gray;
         font-size: 16px;
+    }
+    
+
+    .card-items .p-title{
+        font-size: 12px;
     }
 
     main .card .card-items{
@@ -704,6 +737,13 @@ main .card-items:hover i{
         font-size: 16px;
     }
 
+    
+    .p-supertitle{
+        margin: 8px 0;
+        color: gray;
+        font-size: 16px;
+    }
+    
     main .card .card-items{
         height: 100%;
         flex-basis: 45%;
@@ -722,23 +762,23 @@ main .card-items:hover i{
     }
 
     .nav-late{
-        width: 20%;
-        height: 100px;
+        height: 150px;
         align-items: center;
     }
 
     .nav-center{
         width: 50%;
-        height: 100px;
+        height: 150px;
         align-items: center;
     }
 
-    .text-footer .text-footer-items.titolo {
+    .text-footer .text-footer-items h5 {
         font-size: 18px;
+        color: #fff;
     }
 
-    .text-footer .text-footer-items.brano {
-        font-size: 13px;
+    .text-footer .text-footer-items p{
+        font-size: 15px;
         color: gray;
     }
 
