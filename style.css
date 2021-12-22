@@ -44,7 +44,7 @@ body{
 /* -------inizio aside----- */
 .navbar{
     width: 300px;
-    height: calc(100% - 100px);
+    height: calc(100% - 150px);
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -233,7 +233,7 @@ main .recently-played .card{
 
 main .card-items{
     height: 100%;
-    flex-basis: 16%;
+    width: calc(100% / 6 - 10px);
     margin: 2px 5px;
     flex-direction: column;
     align-items: center;
@@ -246,11 +246,12 @@ main .card-items img{
 }
 
 .artisti-famous{
-    padding-bottom: 50px;
+    margin-bottom: 150px;
 }
 
-.artisti-famous img{
+.artisti-famous .image{
     border-radius: 50%;
+    overflow: hidden;
 }
 /* ---------fine main --------*/
 
@@ -258,7 +259,7 @@ main .card-items img{
 /* ---------inizio footer------- */
 .footer-row{
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: rgb(27, 24, 24);
     justify-content: space-between;
     flex-shrink: 0;
@@ -269,7 +270,7 @@ main .card-items img{
 
 .nav-late{
     width: 20%;
-    height: 100px;
+    height: 150px;
     align-items: center;
 }
 
@@ -281,7 +282,7 @@ main .card-items img{
 
 .nav-center{
     width: 50%;
-    height: 100px;
+    height: 150px;
     align-items: center;
 }
 
@@ -347,6 +348,7 @@ main .card-items img{
     position: relative;
     height: 5px;
     width: 80%;
+    border-radius: 5px;
     background-color: rgb(87, 87, 87);
 }
 
