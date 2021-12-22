@@ -792,7 +792,7 @@ main .card-items:hover i{
         color: gray;
     }
 
-    .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a{
+    .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a, .content-button .fa-caret-left{
         display: none;
     }
 
