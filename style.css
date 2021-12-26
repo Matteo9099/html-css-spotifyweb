@@ -240,7 +240,7 @@ main .recently-played .card{
     margin-top: 10px;
 }
 
-main .card-items{
+main  .card-items{
     height: 100%;
     width: calc(100% / 6 - 10px);
     margin: 2px 5px;
@@ -791,6 +791,10 @@ main .card-items:hover i{
         font-size: 15px;
         color: gray;
     }
+
+    .content-late .preferiti{
+        margin: 5px 0 0 10px
+    } 
 
     .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a, .content-button .fa-caret-left{
         display: none;
