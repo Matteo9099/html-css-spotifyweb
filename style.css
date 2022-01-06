@@ -270,7 +270,7 @@ main .card-items img{
     width: 100%;
     height: 150px;
     background-color: rgb(27, 24, 24);
-    justify-content: space-between;
+    justify-content: space-around;
     flex-shrink: 0;
     position: fixed;
     bottom: 0;
@@ -595,7 +595,6 @@ main .card-items:hover i{
         font-size: 16px;
     }
     
-
     .card-items .p-title{
         font-size: 12px;
     }
@@ -792,11 +791,7 @@ main .card-items:hover i{
         color: gray;
     }
 
-    .content-late .preferiti{
-        margin: 5px 0 0 10px
-    } 
-
-    .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a, .content-button .fa-caret-left{
+    .bar-time, .content-late img, .content-center span, .content-center .s-lg, .content-late a, .content-button .fa-caret-left, .content-button .fa-redo-alt, .content-late .preferiti{
         display: none;
     }
 
